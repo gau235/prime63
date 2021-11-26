@@ -35,7 +35,7 @@ class R49_BiSearch {
 
 		}
 
-		return -left;
+		return -left; // todo: 確定嗎
 
 	}
 
