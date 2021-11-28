@@ -1,6 +1,6 @@
 allCoin=[50, 10, 5, 5]
 targetV=60
-def retCash(prefix, idx):
+def giveChange(prefix, idx):
 	
 	for i in range(idx, len(allCoin)):
 		
@@ -17,7 +17,7 @@ def retCash(prefix, idx):
 		if	sum(curPrefix) > targetV:
 	 		continue
 				
-		retCash(curPrefix, i+1)
+		giveChange(curPrefix, i+1)
 
 
-retCash([],0)
+giveChange([],0)
