@@ -1,5 +1,6 @@
 allCoin=[50, 10, 5, 5]
 targetV=60
+
 def giveChange(prefix, idx):
 	
 	for i in range(idx, len(allCoin)):
@@ -14,10 +15,8 @@ def giveChange(prefix, idx):
 	 		print("size="+ str(len(curPrefix)), curPrefix)	
 	 		continue
 	 		
-		if	sum(curPrefix) > targetV:
-	 		continue
-				
-		giveChange(curPrefix, i+1)
-
-
+		if	sum(curPrefix) < targetV:
+	 		giveChange(curPrefix, i+1)
+	 		
+	 		
 giveChange([],0)

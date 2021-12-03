@@ -50,8 +50,8 @@ class R44_Sqst {
 		int sum = 14;
 
 		if (sqst(ary, ary.length - 1, sum))
-			O.l("Yes");
 
+			O.l("Yes");
 		else
 			O.l("No");
 
