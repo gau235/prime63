@@ -8,7 +8,7 @@ import lgpl3.comb.selfCallva.ForwardSelfCallva;
  * Fibonacci number.<br/>
  *
  * @version 2021/05/13_10:20:00<br/>
- *          <a target="_blank" href="http://c64.tw/w20/o/searchDocOfSrc.jsp?nameOfClass=R11_Fib" >R11_Fib.java</a>
+ *          <a target="_blank" href="http://c64.tw/w20/o/srchSrc.jsp?nameOfClass=R11_Fib" >R11_Fib.java</a>
  *
  */
 class R11_Fib {

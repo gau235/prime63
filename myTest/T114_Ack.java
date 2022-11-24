@@ -9,7 +9,7 @@ import lgpl3.o.O;
  * Ack(3,3)=61
  *
  * @version 2021/11/15_10:20:00<br/>
- *          <a target="_blank" href="http://c64.tw/w20/o/searchDocOfSrc.jsp?nameOfClass=T114_Ack" >T114_Ack.java</a>
+ *          <a target="_blank" href="http://c64.tw/w20/o/srchSrc.jsp?nameOfClass=T114_Ack" >T114_Ack.java</a>
  *
  */
 class T114_Ack {

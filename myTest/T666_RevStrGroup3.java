@@ -11,7 +11,7 @@ import lgpl3.o.B;
  * 輸入 3 表每 3 的字母為 1 組做反轉, 對回文 (ABA) 會重複輸出 1 次.
  *
  * @version 2021/05/13_10:20:00<br/>
- *          <a target="_blank" href="http://c64.tw/w20/o/searchDocOfSrc.jsp?nameOfClass=T666_RevStrGroup3" >T666_RevStrGroup3.java</a>
+ *          <a target="_blank" href="http://c64.tw/w20/o/srchSrc.jsp?nameOfClass=T666_RevStrGroup3" >T666_RevStrGroup3.java</a>
  *
  */
 class T666_RevStrGroup3 {

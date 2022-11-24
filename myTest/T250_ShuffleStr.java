@@ -7,7 +7,7 @@ import static java.lang.System.out;
  * To shuffle.
  *
  * @version 2021/05/15_19:20:00<br/>
- *          <a target="_blank" href="http://c64.tw/w20/o/searchDocOfSrc.jsp?nameOfClass=T250_ShuffleStr" >T250_ShuffleStr.java</a>
+ *          <a target="_blank" href="http://c64.tw/w20/o/srchSrc.jsp?nameOfClass=T250_ShuffleStr" >T250_ShuffleStr.java</a>
  *
  */
 class T250_ShuffleStr {
@@ -29,6 +29,7 @@ class T250_ShuffleStr {
 		}
 
 		for (String smallS : smallSAry)
+
 			out.print(smallS);
 
 	}

@@ -7,7 +7,7 @@ import lgpl3.o.O;
  * To find the second.
  *
  * @version 2021/05/13_10:20:00<br/>
- *          <a target="_blank" href="http://c64.tw/w20/o/searchDocOfSrc.jsp?nameOfClass=T810_FindMaxNSec" >T810_FindMaxNSec.java</a>
+ *          <a target="_blank" href="http://c64.tw/w20/o/srchSrc.jsp?nameOfClass=T810_FindMaxNSec" >T810_FindMaxNSec.java</a>
  *
  */
 class T810_FindMaxNSec {

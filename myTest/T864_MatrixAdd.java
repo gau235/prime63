@@ -7,7 +7,7 @@ import lgpl3.o.O;
  * Matrix.
  *
  * @version 2021/05/13_10:20:00<br/>
- *          <a target="_blank" href="http://c64.tw/w20/o/searchDocOfSrc.jsp?nameOfClass=T864_MatrixAdd" >T864_MatrixAdd.java</a>
+ *          <a target="_blank" href="http://c64.tw/w20/o/srchSrc.jsp?nameOfClass=T864_MatrixAdd" >T864_MatrixAdd.java</a>
  *
  */
 class T864_MatrixAdd extends T860_Matrix {

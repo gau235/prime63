@@ -7,7 +7,7 @@ import static java.lang.System.out;
  * To reverse the digits of a number.
  *
  * @version 2021/05/13_10:20:00<br/>
- *          <a target="_blank" href="http://c64.tw/w20/o/searchDocOfSrc.jsp?nameOfClass=R25_RevNum" >R25_RevNum.java</a>
+ *          <a target="_blank" href="http://c64.tw/w20/o/srchSrc.jsp?nameOfClass=R25_RevNum" >R25_RevNum.java</a>
  *
  */
 class R25_RevNum {

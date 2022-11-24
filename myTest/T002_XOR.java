@@ -7,7 +7,7 @@ import lgpl3.o.O;
  * XOR.
  *
  * @version 2021/01/13_15:20:00<br/>
- *          <a target="_blank" href="http://c64.tw/w20/o/searchDocOfSrc.jsp?nameOfClass=T002_XOR" >T002_XOR.java</a>
+ *          <a target="_blank" href="http://c64.tw/w20/o/srchSrc.jsp?nameOfClass=T002_XOR" >T002_XOR.java</a>
  *
  */
 class T002_XOR {

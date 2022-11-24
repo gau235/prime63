@@ -7,7 +7,7 @@ import lgpl3.o.O;
  * 哲學色彩的數學.
  *
  * @version 2021/05/13_10:20:00<br/>
- *          <a target="_blank" href="http://c64.tw/w20/o/searchDocOfSrc.jsp?nameOfClass=R04_MulNDiv" >R04_MulNDiv.java</a>
+ *          <a target="_blank" href="http://c64.tw/w20/o/srchSrc.jsp?nameOfClass=R04_MulNDiv" >R04_MulNDiv.java</a>
  *
  */
 class R04_MulNDiv {

@@ -9,7 +9,7 @@ import java.util.ArrayList;
  * InsertAryList
  *
  * @version 2021/05/13_10:20:00<br/>
- *          <a target="_blank" href="http://c64.tw/w20/o/searchDocOfSrc.jsp?nameOfClass=T185_InsertDigitIntoList" >
+ *          <a target="_blank" href="http://c64.tw/w20/o/srchSrc.jsp?nameOfClass=T185_InsertDigitIntoList" >
  *          T185_InsertDigitIntoList.java</a>
  *
  */

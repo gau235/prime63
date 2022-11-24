@@ -7,7 +7,7 @@ import static java.lang.System.out;
  * 10 to 2.
  *
  * @version 2021/05/13_10:20:00<br/>
- *          <a target="_blank" href="http://c64.tw/w20/o/searchDocOfSrc.jsp?nameOfClass=R38_From10To2" >R38_From10To2.java</a>
+ *          <a target="_blank" href="http://c64.tw/w20/o/srchSrc.jsp?nameOfClass=R38_From10To2" >R38_From10To2.java</a>
  *
  */
 class R38_From10To2 {

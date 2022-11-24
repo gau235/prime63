@@ -9,7 +9,7 @@ import lgpl3.o.O;
  * 10 to 2.
  *
  * @version 2021/05/13_10:20:00<br/>
- *          <a target="_blank" href="http://c64.tw/w20/o/searchDocOfSrc.jsp?nameOfClass=T498_ToBitStr" >T498_ToBitStr.java</a>
+ *          <a target="_blank" href="http://c64.tw/w20/o/srchSrc.jsp?nameOfClass=T498_ToBitStr" >T498_ToBitStr.java</a>
  *
  */
 class T498_ToBitStr {
@@ -39,12 +39,12 @@ class T498_ToBitStr {
 
 		String retS = "";
 
-		int iUnderline = 1;
+		int iUnder = 1;
 		for (int i = 0; i < s.length(); i++) {
 
 			retS += s.substring(i, i + 1);
 
-			if (iUnderline++ % 8 == 0 && i < 31)
+			if (iUnder++ % 8 == 0 && i < 31)
 				retS += "_";
 
 		}

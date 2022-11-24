@@ -11,7 +11,7 @@ import lgpl3.shuffle.Shuffler;
  * To shuffle.
  *
  * @version 2021/05/12_19:20:00<br/>
- *          <a target="_blank" href="http://c64.tw/w20/o/searchDocOfSrc.jsp?nameOfClass=T251_EasyShuffle" >T251_EasyShuffle.java</a>
+ *          <a target="_blank" href="http://c64.tw/w20/o/srchSrc.jsp?nameOfClass=T251_EasyShuffle" >T251_EasyShuffle.java</a>
  *
  */
 class T251_EasyShuffle {

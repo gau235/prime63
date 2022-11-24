@@ -8,7 +8,7 @@ import lgpl3.o.ary.Ary32_2D;
  * grade 高考普考.
  *
  * @version 2021/05/13_10:20:00<br/>
- *          <a target="_blank" href="http://c64.tw/w20/o/searchDocOfSrc.jsp?nameOfClass=T894_GradeScorePointMark" >
+ *          <a target="_blank" href="http://c64.tw/w20/o/srchSrc.jsp?nameOfClass=T894_GradeScorePointMark" >
  *          T894_GradeScorePointMark.java</a>
  *
  */

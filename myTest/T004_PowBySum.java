@@ -7,7 +7,7 @@ import static java.lang.System.out;
  * To power.
  *
  * @version 2021/05/13_10:20:00<br/>
- *          <a target="_blank" href="http://c64.tw/w20/o/searchDocOfSrc.jsp?nameOfClass=T004_PowBySum" >T004_PowBySum.java</a>
+ *          <a target="_blank" href="http://c64.tw/w20/o/srchSrc.jsp?nameOfClass=T004_PowBySum" >T004_PowBySum.java</a>
  *
  */
 class T004_PowBySum {

@@ -11,7 +11,7 @@ import lgpl3.o.keyNV.K32V64;
  * To sum.
  *
  * @version 2021/05/13_10:20:00<br/>
- *          <a target="_blank" href="http://c64.tw/w20/o/searchDocOfSrc.jsp?nameOfClass=R05_Fac" >R05_Fac.java</a>
+ *          <a target="_blank" href="http://c64.tw/w20/o/srchSrc.jsp?nameOfClass=R05_Fac" >R05_Fac.java</a>
  *
  */
 class R05_Fac {
@@ -62,7 +62,7 @@ class R05_Fac {
 			curObj = stack.cutTail(); // cutTail as Stack.pop
 			out.println("curObj=" + curObj.toStr());
 
-			int curN = (int) curObj.int64;
+			int curN = (int) curObj.v;
 			ans *= curN;
 
 			if (++lv == n)

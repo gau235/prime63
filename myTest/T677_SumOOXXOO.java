@@ -11,7 +11,7 @@ import lgpl3.o.B;
  * 遇到 oo 連續出現會加權, 遇到 xx 歸零.
  *
  * @version 2021/05/13_10:20:00<br/>
- *          <a target="_blank" href="http://c64.tw/w20/o/searchDocOfSrc.jsp?nameOfClass=T677_SumOOXXOO" >T677_SumOOXXOO.java</a>
+ *          <a target="_blank" href="http://c64.tw/w20/o/srchSrc.jsp?nameOfClass=T677_SumOOXXOO" >T677_SumOOXXOO.java</a>
  *
  */
 class T677_SumOOXXOO {

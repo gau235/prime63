@@ -8,7 +8,7 @@ import lgpl3.shuffle.Shuffler;
  * Insertion Sort.
  *
  * @version 2021/05/13_10:20:00<br/>
- *          <a target="_blank" href="http://c64.tw/w20/o/searchDocOfSrc.jsp?nameOfClass=T755_InsertionSort" >T755_InsertionSort.java</a>
+ *          <a target="_blank" href="http://c64.tw/w20/o/srchSrc.jsp?nameOfClass=T755_InsertionSort" >T755_InsertionSort.java</a>
  *
  * @see T751_SelectionSort
  *
@@ -43,7 +43,8 @@ class T755_InsertionSort {
 	public static void main(String[] sAry) {
 
 		int[] ary = { 5, 6, 1, 2, 4, 3 };
-		ary = Shuffler.shuffleByShift(ary);
+
+		ary = Shuffler.shuffle(ary);
 
 		O.l("bef insertionSort:");
 		O.l(ary);

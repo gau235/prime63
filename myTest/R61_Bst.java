@@ -10,7 +10,7 @@ import lgpl3.o.O;
  * 樹根的高度為 1<br/>
  *
  * @version 2021/04/07_10:20:00<br/>
- *          <a target="_blank" href="http://c64.tw/w20/o/searchDocOfSrc.jsp?nameOfClass=R61_Bst" >R61_Bst.java</a>
+ *          <a target="_blank" href="http://c64.tw/w20/o/srchSrc.jsp?nameOfClass=R61_Bst" >R61_Bst.java</a>
  *
  */
 public class R61_Bst extends R60_Bst {

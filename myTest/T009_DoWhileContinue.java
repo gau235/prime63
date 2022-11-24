@@ -7,7 +7,7 @@ import lgpl3.o.O;
  * The continue.
  *
  * @version 2021/11/22_22:00:00<br/>
- *          <a target="_blank" href="http://c64.tw/w20/o/searchDocOfSrc.jsp?nameOfClass=T009_DoWhileContinue" >
+ *          <a target="_blank" href="http://c64.tw/w20/o/srchSrc.jsp?nameOfClass=T009_DoWhileContinue" >
  *          T009_DoWhileContinue.java</a>
  *
  */

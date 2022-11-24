@@ -8,7 +8,7 @@ import lgpl3.o.ary.Seq32;
  * To rotate right.
  *
  * @version 2021/06/02_21:20:00<br/>
- *          <a target="_blank" href="http://c64.tw/w20/o/searchDocOfSrc.jsp?nameOfClass=T888_AryRotateR" >T888_AryRotateR.java</a>
+ *          <a target="_blank" href="http://c64.tw/w20/o/srchSrc.jsp?nameOfClass=T888_AryRotateR" >T888_AryRotateR.java</a>
  *
  */
 class T888_AryRotateR {

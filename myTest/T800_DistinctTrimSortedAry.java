@@ -8,7 +8,7 @@ import lgpl3.o.ary.Ary32va;
  * To distinct.
  *
  * @version 2021/05/15_11:20:00<br/>
- *          <a target="_blank" href="http://c64.tw/w20/o/searchDocOfSrc.jsp?nameOfClass=T800_DistinctTrimSortedAry" >
+ *          <a target="_blank" href="http://c64.tw/w20/o/srchSrc.jsp?nameOfClass=T800_DistinctTrimSortedAry" >
  *          T800_DistinctTrimSortedAry.java</a>
  *
  */

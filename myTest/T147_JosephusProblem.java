@@ -9,7 +9,7 @@ import lgpl3.o.O;
  * Josephus Problem.
  *
  * @version 2021/05/13_10:20:00<br/>
- *          <a target="_blank" href="http://c64.tw/w20/o/searchDocOfSrc.jsp?nameOfClass=T147_JosephusProblem" >T147_JosephusProblem.java</a>
+ *          <a target="_blank" href="http://c64.tw/w20/o/srchSrc.jsp?nameOfClass=T147_JosephusProblem" >T147_JosephusProblem.java</a>
  *
  */
 class T147_JosephusProblem {

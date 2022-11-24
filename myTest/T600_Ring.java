@@ -13,7 +13,7 @@ import lgpl3.o.B;
  * To reverse.
  *
  * @version 2021/05/13_10:20:00<br/>
- *          <a target="_blank" href="http://c64.tw/w20/o/searchDocOfSrc.jsp?nameOfClass=T600_Ring" >T600_Ring.java</a>
+ *          <a target="_blank" href="http://c64.tw/w20/o/srchSrc.jsp?nameOfClass=T600_Ring" >T600_Ring.java</a>
  *
  */
 class T600_Ring {

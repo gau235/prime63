@@ -10,7 +10,7 @@ import lgpl3.o.O;
  * To print.
  *
  * @version 2021/05/13_10:20:00<br/>
- *          <a target="_blank" href="http://c64.tw/w20/o/searchDocOfSrc.jsp?nameOfClass=R88_RecurPrint" >R88_RecurPrint.java</a>
+ *          <a target="_blank" href="http://c64.tw/w20/o/srchSrc.jsp?nameOfClass=R88_RecurPrint" >R88_RecurPrint.java</a>
  *
  */
 class R88_RecurPrint {

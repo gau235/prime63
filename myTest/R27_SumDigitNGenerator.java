@@ -4,15 +4,12 @@ import static java.lang.System.out;
 
 import java.util.Scanner;
 
-import lgpl3.o.B;
-
 /**
  * To reverse.<br/>
  * 高考普考.
  *
  * @version 2021/05/13_10:20:00<br/>
- *          <a target="_blank" href="http://c64.tw/w20/o/searchDocOfSrc.jsp?nameOfClass=R27_SumDigitNGenerator" >
- *          R27_SumDigitNGenerator.java</a>
+ *          <a target="_blank" href="http://c64.tw/w20/o/srchSrc.jsp?nameOfClass=R27_SumDigitNGenerator" > R27_SumDigitNGenerator.java</a>
  *
  */
 class R27_SumDigitNGenerator {
@@ -37,27 +34,33 @@ class R27_SumDigitNGenerator {
 
 		for (int myN = 1; myN <= n; myN++) {
 
-			if ((myN + sumDigit(myN, 0)) == n)
+			if ((myN + sumDigit(myN, 0)) == n) {
+
+				out.println("myN=" + myN);
+				out.println("sumDigit=" + sumDigit(myN, 0));
+
 				out.println("generator=" + myN);
 
+			}
 		}
+
 	}
 
 	public static void main(String[] sAry) {
 
-		out.println("pleas input:");
+		out.println("請輸入正整數:");
 
 		Scanner sc = new Scanner(System.in);
 
 		int n;
 
-		while (B.I) {
+		while (true) {
 
 			n = sc.nextInt();
 
 			if (n <= 0) {
 
-				out.println("請輸入正整數, 資料不正確將結束程式");
+				out.println("資料不正確結束程式");
 				return;
 
 			}

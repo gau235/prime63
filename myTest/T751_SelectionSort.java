@@ -7,7 +7,7 @@ import lgpl3.o.O;
  * Selection Sort.
  *
  * @version 2021/05/13_10:20:00<br/>
- *          <a target="_blank" href="http://c64.tw/w20/o/searchDocOfSrc.jsp?nameOfClass=T751_SelectionSort" >T751_SelectionSort.java</a>
+ *          <a target="_blank" href="http://c64.tw/w20/o/srchSrc.jsp?nameOfClass=T751_SelectionSort" >T751_SelectionSort.java</a>
  *
  * @see T751_SelectionSort
  *
@@ -47,7 +47,6 @@ class T751_SelectionSort {
 			// }
 
 		}
-
 	}
 
 	public static void main(String[] sAry) {

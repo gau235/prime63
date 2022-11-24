@@ -9,7 +9,7 @@ import java.util.TreeSet;
  * random
  *
  * @version 2021/05/13_10:20:00<br/>
- *          <a target="_blank" href="http://c64.tw/w20/o/searchDocOfSrc.jsp?nameOfClass=T288_GenRandomN" >T288_GenRandomN.java</a>
+ *          <a target="_blank" href="http://c64.tw/w20/o/srchSrc.jsp?nameOfClass=T288_GenRandomN" >T288_GenRandomN.java</a>
  *
  */
 class T288_GenRandomN {

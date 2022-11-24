@@ -9,7 +9,7 @@ import java.util.Arrays;
  * To swap.
  *
  * @version 2021/05/13_10:20:00<br/>
- *          <a target="_blank" href="http://c64.tw/w20/o/searchDocOfSrc.jsp?nameOfClass=T120_SwapPosInAry" >T120_SwapPosInAry.java</a>
+ *          <a target="_blank" href="http://c64.tw/w20/o/srchSrc.jsp?nameOfClass=T120_SwapPosInAry" >T120_SwapPosInAry.java</a>
  *
  */
 class T120_SwapPosInAry { // Generic

@@ -5,7 +5,7 @@ package myTest;
  * 複數 高考普考.
  *
  * @version 2021/05/10_20:20:00<br/>
- *          <a target="_blank" href="http://c64.tw/w20/o/searchDocOfSrc.jsp?nameOfClass=T722_Complex" >T722_Complex.java</a>
+ *          <a target="_blank" href="http://c64.tw/w20/o/srchSrc.jsp?nameOfClass=T722_Complex" >T722_Complex.java</a>
  *
  */
 class Complex {

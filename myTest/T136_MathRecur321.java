@@ -7,7 +7,7 @@ import static java.lang.System.out;
  * MathRecur321
  *
  * @version 2021/05/12_19:20:00<br/>
- *          <a target="_blank" href="http://c64.tw/w20/o/searchDocOfSrc.jsp?nameOfClass=T136_MathRecur321" >T136_MathRecur321.java</a>
+ *          <a target="_blank" href="http://c64.tw/w20/o/srchSrc.jsp?nameOfClass=T136_MathRecur321" >T136_MathRecur321.java</a>
  *
  */
 class T136_MathRecur321 {

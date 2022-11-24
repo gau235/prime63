@@ -11,7 +11,7 @@ import lgpl3.recycle.NodInLinkedList32;
  * The linked list.
  *
  * @version 2021/05/13_10:20:00<br/>
- *          <a target="_blank" href="http://c64.tw/w20/o/searchDocOfSrc.jsp?nameOfClass=T707_RevLinkedList" >T707_RevLinkedList.java</a>
+ *          <a target="_blank" href="http://c64.tw/w20/o/srchSrc.jsp?nameOfClass=T707_RevLinkedList" >T707_RevLinkedList.java</a>
  *
  */
 class T707_RevLinkedList {

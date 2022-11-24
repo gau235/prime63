@@ -11,7 +11,7 @@ import lgpl3.o.B;
  * bitCount A~B.
  *
  * @version 2021/04/13_21:40:00<br/>
- *          <a target="_blank" href="http://c64.tw/w20/o/searchDocOfSrc.jsp?nameOfClass=T580_BitCount" >T580_BitCount.java</a>
+ *          <a target="_blank" href="http://c64.tw/w20/o/srchSrc.jsp?nameOfClass=T580_BitCount" >T580_BitCount.java</a>
  *
  */
 class T580_BitCount {
