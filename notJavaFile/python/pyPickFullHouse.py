@@ -15,8 +15,7 @@ for iii in myBag: # 抓三條
 def 排除元素(原容器, 該排除的元素):
 	新容器 = []
 	for 元素 in 原容器:
-		if 元素 not in 該排除的元素:
-			新容器.append(元素)
+		if 元素 not in 該排除的元素: 新容器.append(元素)
 	return 新容器
 #######################
 剩下那些=排除元素(甲輪牌箱, tmpBag)
@@ -25,9 +24,8 @@ print('剩下那些 ' + str(剩下那些))
 myBag=list(combinations(剩下那些,2))
 
 for iii in myBag: # 抓一對
-	if(iii[0][-1:]==iii[1][-1:]):
-		print("抓一對 "+str(iii))
-		
+	if(iii[0][-1:]==iii[1][-1:]): print("抓一對 "+str(iii))
+
 # 輸出:
 # 抓三條 ('黑桃9', '紅心9', '方塊9')
 # 抓三條 ('黑桃9', '紅心9', '梅花9')

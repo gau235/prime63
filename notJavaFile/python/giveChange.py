@@ -1,22 +1,32 @@
-allCoin=[50, 10, 5, 5]
-targetV=60
+硬幣箱=[50, 30, 20, 20, 15, 15, 10, 5]
+待找金額=35
 
-def giveChange(prefix, idx):
+硬幣箱深度=len(硬幣箱)
+
+def 找零錢(找零錢硬幣集, 硬幣箱第幾層):
 	
-	for i in range(idx, len(allCoin)):
+	if 硬幣箱第幾層== 硬幣箱深度:
+		if sum(找零錢硬幣集) == 待找金額: print("找零錢=", 找零錢硬幣集, "個數="+ str(len(找零錢硬幣集)))
 		
-		curPrefix=prefix.copy()
-		
-		curPrefix.append(allCoin[i])
-		#print(allCoin[i])
-		#print(curPrefix)
-		
-		if	sum(curPrefix) == targetV:
-	 		print("size="+ str(len(curPrefix)), curPrefix)	
-	 		continue
-	 		
-		if	sum(curPrefix) < targetV:
-	 		giveChange(curPrefix, i+1)
-	 		
-	 		
-giveChange([],0)
+		return
+	
+	找零錢(找零錢硬幣集, 硬幣箱第幾層+1)
+	
+	拷貝硬幣集=找零錢硬幣集.copy()
+	取這硬幣=硬幣箱[硬幣箱第幾層]
+	拷貝硬幣集.append(取這硬幣)
+	找零錢硬幣集=拷貝硬幣集
+	找零錢(找零錢硬幣集, 硬幣箱第幾層+1)
+##############################
+print("待找金額="+ str(待找金額))	
+找零錢([],0)
+
+# 待找金額=35
+# 找零錢= [15, 15, 5] 個數=3
+# 找零錢= [20, 10, 5] 個數=3
+# 找零錢= [20, 15] 個數=2
+# 找零錢= [20, 15] 個數=2
+# 找零錢= [20, 10, 5] 個數=3
+# 找零錢= [20, 15] 個數=2
+# 找零錢= [20, 15] 個數=2
+# 找零錢= [30, 5] 個數=2
