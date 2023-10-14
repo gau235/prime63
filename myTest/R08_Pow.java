@@ -17,6 +17,7 @@ class R08_Pow {
 	static int pow(int base, int exp) {
 
 		if (exp == 0)
+
 			return 1;
 
 		return base * pow(base, exp - 1);
@@ -31,6 +32,7 @@ class R08_Pow {
 		int newCurExp = curExp + 1;
 
 		if (newCurExp == exp)
+
 			return newProd;
 
 		return powForward(base, newProd, newCurExp, exp);
@@ -41,6 +43,7 @@ class R08_Pow {
 
 		int ans = 1;
 		for (int i = 1; i <= exp; i++)
+
 			ans *= base;
 
 		return ans;

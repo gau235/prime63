@@ -1,8 +1,8 @@
 package myTest;
 
 import static java.lang.System.out;
+import static lgpl3.o.B.T;
 
-import lgpl3.o.B;
 import lgpl3.o.O;
 
 /**
@@ -68,13 +68,13 @@ public class R61_Bst extends R60_Bst {
 	static boolean ifAllNodeEq(Node root1, Node root2) {
 
 		if (root1 == null && root2 == null)
-			return B.I;
+			return T;
 
 		if (root1 == null && root2 != null)
-			return B.O;
+			return !T;
 
 		if (root1 != null && root2 == null)
-			return B.O;
+			return !T;
 
 		return ((root1.data == root2.data) && ifAllNodeEq(root1.left, root2.left) && ifAllNodeEq(root1.right, root2.right));
 

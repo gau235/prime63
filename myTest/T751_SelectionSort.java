@@ -1,65 +1,58 @@
 package myTest;
 
 import lgpl3.o.O;
+import lgpl3.o.ary.Ary32va;
+import lgpl3.recycle.Zw_BubbleSort;
+import lgpl3.shuffle.Shuffler;
 
 /**
  * Selection Sort.<br/>
  * Selection Sort.
  *
- * @version 2021/05/13_10:20:00<br/>
- *          <a target="_blank" href="http://c64.tw/w20/o/srchSrc.jsp?nameOfClass=T751_SelectionSort" >T751_SelectionSort.java</a>
+ * @version 2022/12/13_10:20:00<br/>
+ *          <a target="_blank" href="http://c64.tw/w20/o/srchSrc.jsp?nameOfClass=T751_SelectionSort" >src</a>
  *
  * @see T751_SelectionSort
  *
- * @see T753_BubbleSort
+ * @see Zw_BubbleSort
  *
  * @see T755_InsertionSort
  */
 class T751_SelectionSort {
 
-	static void swap(int[] a, int i, int j) {
+	static int[] selectionSort(int[] ary) {
 
-		int tmp = a[i];
-		a[i] = a[j];
-		a[j] = tmp;
+		int step, i, iMin;
 
-	}
-
-	static void selectionSort(int[] a) {
-
-		int step, i;
-		int iMin;
-		for (step = 0; step < (a.length - 1); step++) {
+		for (step = 0; step < (ary.length - 1); step++) {
 
 			iMin = step;
 
-			for (i = step + 1; i < a.length; i++) {
+			for (i = step + 1; i < ary.length; i++)
 
-				if (a[i] < a[iMin])
+				if (ary[i] < ary[iMin])
+
 					iMin = i; // keep the index
 
-			}
+			// if (iMin != step)
 
-			// if (iMin != step) {
-
-			swap(a, step, iMin);
-
-			// }
+			Ary32va.swapV(ary, step, iMin);
 
 		}
+
+		return ary;
+
 	}
 
 	public static void main(String[] sAry) {
 
-		int[] ary = { 5, 6, 1, 2, 4, 3 };
+		int[] ary = { 10, 20, 30, 40, 50, 60 };
 
-		O.l("befSort=");
-		O.l(ary);
+		O.l("bef===");
+		O.l(Shuffler.shuffle(ary));
 
-		selectionSort(ary);
-
-		O.l("aftSort=");
-		O.l(ary);
+		O.l("aft===");
+		O.l(selectionSort(ary));
 
 	}
 }

@@ -15,7 +15,7 @@ class T814_FindMaxProd {
 	static int findMaxProdOld(int[] ary) {
 
 		int max = -1;
-		int i1, i2, v1, v2, tmp;
+		int i1, i2, v1, v2, tmpV;
 
 		for (i1 = 0; i1 != ary.length; i1++) {
 
@@ -24,11 +24,11 @@ class T814_FindMaxProd {
 			for (i2 = i1 + 1; i2 != ary.length; i2++) {
 
 				v2 = ary[i2];
-				tmp = v1 * v2;
+				tmpV = v1 * v2;
 
-				if (tmp > max)
+				if (tmpV > max)
 
-					max = tmp;
+					max = tmpV;
 
 			}
 		}
@@ -46,6 +46,7 @@ class T814_FindMaxProd {
 		int ansDesc = minAry[0] * minAry[1];
 
 		if (ansAsc > ansDesc)
+
 			return ansAsc;
 
 		return ansDesc;
@@ -57,9 +58,8 @@ class T814_FindMaxProd {
 		int[] ary = { 30, -20, 0, 10, -40, 0, 50 };
 
 		int findMaxProd = findMaxProd(ary);
-		O.eq(findMaxProd, findMaxProdOld(ary));
 
-		O.l("maxProd=" + findMaxProd);
+		O.l("maxProd=" + O.eq(findMaxProd, findMaxProdOld(ary)));
 
 	}
 }

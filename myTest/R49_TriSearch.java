@@ -3,11 +3,14 @@ package myTest;
 import lgpl3.o.O;
 
 /**
- * Binary search.<br/>
- * Binary search.
+ * Tri search.<br/>
+ * 高考普考.
  */
 class R49_TriSearch {
 
+	// 這是一個遞迴的對未排序陣列進行三分搜尋的演算法，由於此演算法會將陣列切成三塊分別搜尋，
+	// 直到只剩 2 個元素無法切割成 3 塊，接著循序搜尋這 2 個元素，實際上是對所有陣列中的數各處理 1 次，
+	// 因此不管最好最差，時間複雜度均為 O(n)
 	static int triSearchRecur(int[] unsortedAry, int key, int from, int to) {
 
 		if (to <= from)
@@ -62,10 +65,6 @@ class R49_TriSearch {
 		}
 
 		return found;
-
-		// 這是一個遞迴的對未排序陣列進行三分搜尋的演算法，由於此演算法會將陣列切成三塊分別搜尋，
-		// 直到只剩 2 個元素無法切割成 3 塊，接著循序搜尋這 2 個元素，實際上是對所有陣列中的數各處理 1 次，
-		// 因此不管最好最差，時間複雜度均為 O(n)
 
 	}
 

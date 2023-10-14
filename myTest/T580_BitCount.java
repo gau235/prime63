@@ -1,10 +1,9 @@
 package myTest;
 
 import static java.lang.System.out;
+import static lgpl3.o.B.T;
 
 import java.util.Scanner;
-
-import lgpl3.o.B;
 
 /**
  * bitCount A~B.<br/>
@@ -40,7 +39,7 @@ class T580_BitCount {
 
 		int from, to;
 		int sum = 0;
-		while (B.I) {
+		while (T) {
 
 			from = sc.nextInt();
 			to = sc.nextInt();

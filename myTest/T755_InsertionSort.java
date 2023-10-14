@@ -1,61 +1,60 @@
 package myTest;
 
+import java.util.Arrays;
+
 import lgpl3.o.O;
+import lgpl3.recycle.Zw_BubbleSort;
 import lgpl3.shuffle.Shuffler;
 
 /**
  * Insertion Sort.<br/>
  * Insertion Sort.
  *
- * @version 2021/05/13_10:20:00<br/>
- *          <a target="_blank" href="http://c64.tw/w20/o/srchSrc.jsp?nameOfClass=T755_InsertionSort" >T755_InsertionSort.java</a>
+ * @version 2022/12/13_10:20:00<br/>
+ *          <a target="_blank" href="http://c64.tw/w20/o/srchSrc.jsp?nameOfClass=T755_InsertionSort" >src</a>
  *
  * @see T751_SelectionSort
  *
- * @see T753_BubbleSort
+ * @see Zw_BubbleSort
  *
  * @see T755_InsertionSort
  */
 class T755_InsertionSort {
 
-	static void swap(int[] a, int i, int j) {
+	public static int[] insertionSort(int[] ary) {
 
-		int tmp = a[i];
-		a[i] = a[j];
-		a[j] = tmp;
+		for (int i = 1; i < ary.length; i++) {
 
-	}
+			int v = ary[i];
 
-	static void insertionSort(int[] a) {
+			int j = i - 1;
 
-		int i, j;
-		for (i = 1; i < a.length; i++) {
+			for (; j >= 0 && v < ary[j]; j--)
 
-			for (j = i; j > 0; j--) {
+				ary[j + 1] = ary[j];
 
-				if (a[j] < a[j - 1])
-					swap(a, j, j - 1);
+			ary[j + 1] = v;
 
-			}
 		}
+
+		return ary;
+
 	}
 
 	public static void main(String[] sAry) {
 
-		int[] ary = { 5, 6, 1, 2, 4, 3 };
+		int[] ary = { 10, 20, 30, 40, 50, 60 };
+		int[] clonedAry = ary.clone();
 
-		ary = Shuffler.shuffle(ary);
+		O.l("bef===");
+		O.l(Shuffler.shuffle(ary));
 
-		O.l("bef insertionSort:");
-		O.l(ary);
+		O.l("aft===");
+		O.l(insertionSort(ary));
 
-		insertionSort(ary);
+		if (!Arrays.equals(ary, clonedAry))
 
-		O.l("aft insertionSort:");
-		O.l(ary);
-
-		// Arrays.sort(ary32);
-		// Arrays.compare(ary32, );
+			O.x(O.L + Arrays.toString(ary) + "=>ary" + O.L + Arrays.toString(clonedAry) + "=>clonedAry");
 
 	}
 }

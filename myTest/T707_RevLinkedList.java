@@ -1,8 +1,8 @@
 package myTest;
 
 import static java.lang.System.out;
+import static lgpl3.o.B.T;
 
-import lgpl3.o.B;
 import lgpl3.o.O;
 import lgpl3.recycle.NodInLinkedList32;
 
@@ -11,7 +11,7 @@ import lgpl3.recycle.NodInLinkedList32;
  * The linked list.
  *
  * @version 2021/05/13_10:20:00<br/>
- *          <a target="_blank" href="http://c64.tw/w20/o/srchSrc.jsp?nameOfClass=T707_RevLinkedList" >T707_RevLinkedList.java</a>
+ *          <a target="_blank" href="http://c64.tw/w20/o/srchSrc.jsp?nameOfClass=T707_RevLinkedList" >src</a>
  *
  */
 class T707_RevLinkedList {
@@ -44,7 +44,7 @@ class T707_RevLinkedList {
 
 	static void toStr(NodInLinkedList32 cur) {
 
-		while (B.I) {
+		while (T) {
 
 			if (cur.next == null) {
 

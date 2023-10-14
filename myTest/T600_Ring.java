@@ -1,12 +1,11 @@
 package myTest;
 
 import static java.lang.System.out;
+import static lgpl3.o.B.T;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
-
-import lgpl3.o.B;
 
 /**
  * To reverse.<br/>
@@ -23,7 +22,7 @@ class T600_Ring {
 		Scanner sc;
 		String s;
 
-		while (B.I) {
+		while (T) {
 
 			out.println("pleas input:");
 

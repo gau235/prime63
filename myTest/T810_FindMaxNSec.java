@@ -16,20 +16,21 @@ class T810_FindMaxNSec {
 
 		// 准备 2 个变数, 如同费氏数列 fn, fn_1, fn_2 这样的迭代关系
 		// 處長升官退休, 副處長變處長, 經理變副處長
-		int max1 = -99, max2 = -99, tmp;
+		int max1 = -99, max2 = -99, tmpV;
 
 		for (int i = 0; i != ary.length; i++) {
 
-			tmp = ary[i];
+			tmpV = ary[i];
 
-			if (tmp > max1) {
+			if (tmpV > max1) {
 
 				max2 = max1; // 升級
 
-				max1 = tmp;
+				max1 = tmpV;
 
-			} else if (tmp > max2)
-				max2 = tmp;
+			} else if (tmpV > max2)
+
+				max2 = tmpV;
 
 		}
 
@@ -41,20 +42,21 @@ class T810_FindMaxNSec {
 
 		// 准备 2 个变数, 如同费氏数列 fn, fn_1, fn_2 这样的迭代关系
 		// 處長升官退休, 副處長變處長, 經理變副處長
-		int min1 = 99, min2 = 99, tmp;
+		int min1 = 99, min2 = 99, tmpV;
 
 		for (int i = 0; i != ary.length; i++) {
 
-			tmp = ary[i];
+			tmpV = ary[i];
 
-			if (tmp < min1) {
+			if (tmpV < min1) {
 
 				min2 = min1; // 升級
 
-				min1 = tmp;
+				min1 = tmpV;
 
-			} else if (tmp < min2)
-				min2 = tmp;
+			} else if (tmpV < min2)
+
+				min2 = tmpV;
 
 		}
 

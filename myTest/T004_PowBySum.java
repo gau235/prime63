@@ -18,6 +18,7 @@ class T004_PowBySum {
 
 		int ans = 1;
 		for (int i = 1; i <= exp; i++)
+
 			ans = ans + ans + ans;
 
 		out.printf("ans=%d", ans);

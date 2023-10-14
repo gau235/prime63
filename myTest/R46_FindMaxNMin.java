@@ -13,17 +13,17 @@ class R46_FindMaxNMin {
 		int max = ary[0];
 		int min = ary[0];
 
-		for (int i = 0, tmp; i < ary.length; i++) {
+		for (int idx = 0, v; idx < ary.length; idx++) {
 
-			tmp = ary[i]; // O.l("tmp=" + tmp);
+			v = ary[idx]; // O.l("v=" + v);
 
-			if (tmp > max)
+			if (v > max)
 
-				max = tmp;
+				max = v;
 
-			if (tmp < min)
+			if (v < min)
 
-				min = tmp;
+				min = v;
 
 		}
 
@@ -53,15 +53,16 @@ class R46_FindMaxNMin {
 
 	public static void main(String[] sAry) {
 
-		int[] ary = { 40, 50, 10, 30 };
+		int[] bsae = { 40, 50, 10, 30 };
 
-		O.l("recur=");
-		O.l(findMaxNMinRecur(ary, 0, ary[0], ary[0]));
+		O.l("findMaxNMinRecur=");
+		O.l(findMaxNMinRecur(bsae, 0, bsae[0], bsae[0]));
 
-		int[] ansAry = findMaxNMin(ary);
+		int[] maxNMin = findMaxNMin(bsae);
 
-		O.l("max=" + ansAry[0]);
-		O.l("min=" + ansAry[1]);
+		O.l("findMaxNMin=");
+		O.l("max=" + maxNMin[0]);
+		O.l("min=" + maxNMin[1]);
 
 	}
 }

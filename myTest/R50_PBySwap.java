@@ -15,15 +15,13 @@ class R50_PBySwap {
 
 	}
 
-	static int count;
-
 	static void p(char[] ary, int from) {
 
 		if (from == ary.length - 1) {
 
 			O.l(ary);
 
-			++count;
+			++B.cnt;
 
 			return;
 
@@ -49,9 +47,9 @@ class R50_PBySwap {
 
 		p(ary, 0);
 
-		O.l("count=" + count);
+		O.l("count=" + B.cnt);
 
-		B.n32 = 0;
+		B.cnt = 0;
 
 	}
 }

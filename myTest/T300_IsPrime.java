@@ -1,6 +1,7 @@
 package myTest;
 
-import lgpl3.o.B;
+import static lgpl3.o.B.T;
+
 import lgpl3.o.O;
 import lgpl3.prime64.Miner;
 
@@ -9,7 +10,7 @@ import lgpl3.prime64.Miner;
  * HanoiTowerRecur
  *
  * @version 2021/05/13_10:20:00<br/>
- *          <a target="_blank" href="http://c64.tw/w20/o/srchSrc.jsp?nameOfClass=T300_IsPrime" >T300_IsPrime.java</a>
+ *          <a target="_blank" href="http://c64.tw/w20/o/srchSrc.jsp?nameOfClass=T300_IsPrime" >src</a>
  *
  */
 class T300_IsPrime {
@@ -20,22 +21,22 @@ class T300_IsPrime {
 	static boolean isPrime(int n) {
 
 		if (n == 1)
-			return B.O;
+			return !T;
 
 		if (n == 2)
-			return B.I;
+			return T;
 
 		if (n % 2 == 0)
-			return B.O;
+			return !T;
 
 		for (int divisor = 3; divisor * divisor <= n; divisor += 2) {
 
 			if (n % divisor == 0)
-				return B.O;
+				return !T;
 
 		}
 
-		return B.I;
+		return T;
 
 	}
 
